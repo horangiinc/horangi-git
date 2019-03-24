@@ -1,4 +1,4 @@
-baseurl = "www.horangi.games"
+baseurl = "https://www.horangi.games"
 languageCode = "en-us"
 title = "Horangi"
 theme = "hugo-creative-theme"
