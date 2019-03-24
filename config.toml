@@ -24,7 +24,7 @@ googleAnalytics = ""
 	description = "A Game Company"
 
 	# The path must be relative to the static folder
-	favicon = "hcon.ico"
+	favicon = "hicon.ico"
 
 
 	# Navigation
