@@ -1,6 +1,6 @@
-baseurl = "https://example.org/"
+baseurl = "https://www.horangi.games"
 languageCode = "en-us"
-title = "Hugo Creative Theme"
+title = "Horangi"
 theme = "hugo-creative-theme"
 googleAnalytics = ""
 
@@ -20,85 +20,76 @@ googleAnalytics = ""
 
 	# To provide some metadata for search engines feel free to add some
 	# information about you and your website.
-	name = "Your name"
-	description = "Your description"
+	name = "Horangi Inc."
+	description = "A Game Company"
 
 	# The path must be relative to the static folder
-	favicon = "favicon.ico"
+	favicon = "hicon.ico"
 
 
 	# Navigation
 	[params.navigation]
-		brand = "Hugo Creative Theme"
+		brand = "Horangi"
 
 		[params.navigation.links]
 			about     = "About"
-			services  = "Services"
-			portfolio = "Portfolio"
+			services  = "Team Squad"
+			portfolio = "Games"
 			contact   = "Contact"
 
 
-	# Hero section
+	# 메인화면 
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "Your awesome slogan"
-		subtitle   = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nesciunt consequatur ut nihil voluptatem fugiat eos eveniet alias in veniam?"
-		buttonText = "Find out more"
+		slogan     = "The Passionate Nerds"
+		subtitle   = "Constantly challenging for a grand ambition, Making followers without following the ordinary path"
+		buttonText = "Find out More"
 
 
-	# About section
+	#  회사설명
 	[params.about]
-		headline    = "We've got what you need!"
-		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
-		buttonText  = "Get started!"
+		headline    = "Horangi Inc."
+		description = "Young villains who make games in South Korea."
+		#buttonText  = "Get started!"
 
 
-	# Service section
+	# 팀 스쿼드
 	[params.services]
-		headline = "At your service"
+		headline = "Team Squad"
 
         [[params.services.list]]
-            icon = "fa-diamond"
-            title = "Sturdy Templates"
-            description = "Our templates are updated regularly so they don't break."
+            icon = "fa-user"
+            title = "Inwoo Baek"
+            description = "Designer"
 
-        [[params.services.list]]
-			icon = "fa-paper-plane"
-			title = "Ready to Ship"
-			description = "You can use this theme as is, or you can make changes!"
-
-		[[params.services.list]]
-            icon = "fa-newspaper-o"
-            title = "Up to Date"
-            description = "We update dependencies to keep things fresh."
-
-        [[params.services.list]]
-            icon = "fa-heart"
-            title = "Made with Love"
-            description = "You have to make your websites with love these days!"
+	[[params.services.list]]
+	icon = "fa-user"
+	title = "Kyu-Hwan Lee"
+	description = "Artist"
 
 
-    # Portfolio modals
+
+    # 포트폴리오
 	[params.portfolio.modal]
-        client = "Client"
+        client = "Download"
         date = "Date"
         category = "Category"
         buttonText = "Close"
 
     # Aside section
 	[params.aside]
-		headline = "Get the Creative Theme for Hugo"
+		headline = "Let's play with Horangi games"
 
-		[params.aside.button]
-			text = "Download now"
-			link = "//github.com/digitalcraftsman/hugo-creative-theme"
+		#[params.aside.button]
+		#	text = "Download now"
+		#	link = "//github.com/digitalcraftsman/hugo-creative-theme"
 
 	# Contact section
 	[params.contact]
 		headline = "Let's Get In Touch!"
 		description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
-		phone = "123-456-6789"
-		email = "feedback@startbootstrap.com"
+		phone = "+82 10 6291 0779"
+		email = "horang2game@gmail.com"
 
 	# Google Maps section
 	# [params.location]
