@@ -1,4 +1,4 @@
-baseurl = "https://www.horangigames.netlify.com"
+baseurl = "www.horangi.games"
 languageCode = "en-us"
 title = "Horangi"
 theme = "hugo-creative-theme"
