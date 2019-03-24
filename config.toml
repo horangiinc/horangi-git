@@ -1,7 +1,7 @@
 baseurl = "https://www.horangi.games"
 languageCode = "en-us"
 title = "Horangi"
-theme = ""
+theme = "Hugo-Creative-theme"
 googleAnalytics = ""
 
 [params]
