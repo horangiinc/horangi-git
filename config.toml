@@ -43,7 +43,7 @@ googleAnalytics = ""
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "The Passionate Nerds"
 		subtitle   = "Constantly challenging for a grand ambition, Making followers without following the ordinary path"
-		buttonText = "Find out More"
+		#buttonText = "Find out More"
 
 
 	#  회사설명
